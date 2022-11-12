@@ -1,7 +1,8 @@
 # DSA-with-JS
 ##Boiler Plate Code
 
-```function runProgram(input){
+```
+function runProgram(input){
 	// write code here
 }
 
