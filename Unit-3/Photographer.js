@@ -74,3 +74,26 @@ function photographer(n,x,arr){
     }
     console.log(ans);
 }
+
+/*
+function photographer(n,x,arr){
+    let ans = "YES";
+    arr.sort((a,b) => {return a - b})
+    
+    for(let i = 0;i < n;i++){
+        
+        for(j = n;j < n*2;j++){
+            
+            if(arr[j] - arr[i] < x){
+                ans = "NO";
+                break;
+            }
+            if(ans === "NO"){
+                break;
+            }
+            i++;
+        }
+    }
+    console.log(ans);
+}
+*/
