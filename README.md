@@ -1,5 +1,5 @@
 # DSA-with-JS
-##Boiler Plate Code
+## Boiler Plate Code
 
 ```
 function runProgram(input){
